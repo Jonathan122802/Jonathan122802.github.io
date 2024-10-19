@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Portfolio Jonathan Jäde</title>
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="Style_Sheet.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="tenPercentVert">
+        </div>
+        <div class="headerIcon">
+            <img src="Signature.png" alt="">
+        </div>
+        <div class="headerText">
+            <h1></h1>
+        </div>
+        </header>
+    </div>
+    <div class="midSection">
+        <div class="topicSelector">
+            <ul class="topicUL">
+                <a class="topicLink" href="Index.html">Home</a>
+                <a class="topicLink" href="About Me.html">About me</a>
+                <a class="topicLink" href="Projects.html">Projects</a>
+                <a class="topicLink" href="Skills.html">Skills</a>
+                <a class="topicLink" href="Contact.html">Contact</a>
+            </ul>
+        </div>
+        <div class="content">
+            <h1>Demonstration of Java Skills</h1>
+            <p class="contentText">
+                In the following I will showcase a part of my skills in Java. These include the implementation of Java
+                Script into HTML, the creation of linked vertices with random weights on the canvas and the
+                implementation of the Dijkstra Alghorhithm to find the shortest path from top to bottom.
+            </p>
+            <div class="demoCanvas">
+                <svg width="100%" height="100%">
+                    <circle cx="100" cy="250" class="circleStandard" />
+                    <text id="0" x="100" y="250" dx="-0.25em" dy="0.25em">0</text>
+                    <circle cx="400" cy="150" class="circleStandard" />
+                    <text id="1" x="400" y="150" dx="-0.25em" dy="0.25em">0</text>
+                    <circle cx="400" cy="250" class="circleStandard" />
+                    <text id="2" x="400" y="250" dx="-0.25em" dy="0.25em">0</text>
+                    <circle cx="400" cy="350" class="circleStandard" />
+                    <text id="3" x="400" y="350" dx="-0.25em" dy="0.25em">0</text>
+                    <circle cx="700" cy="150" class="circleStandard" />
+                    <text id="4" x="700" y="150" dx="-0.25em" dy="0.25em">0</text>
+                    <circle cx="700" cy="250" class="circleStandard" />
+                    <text id="5" x="700" y="250" dx="-0.25em" dy="0.25em">0</text>
+                    <circle cx="700" cy="350" class="circleStandard" />
+                    <text id="6" x="700" y="350" dx="-0.25em" dy="0.25em">0</text>
+                    <circle cx="1000" cy="250" class="circleStandard" />
+                    <text id="7" x="1000" y="250" dx="-0.25em" dy="0.25em">0</text>
+                    <line x1="125" y1="250" x2="375" y2="150" class="lineStandard" />
+                    <line x1="125" y1="250" x2="375" y2="250" class="lineStandard" />
+                    <line x1="125" y1="250" x2="375" y2="350" class="lineStandard" />
+                    <line x1="400" y1="175" x2="400" y2="225" class="lineStandard" />
+                    <line x1="425" y1="150" x2="675" y2="150" class="lineStandard" />
+                    <line x1="400" y1="275" x2="400" y2="325" class="lineStandard" />
+                    <line x1="425" y1="250" x2="675" y2="250" class="lineStandard" />
+                    <line x1="425" y1="350" x2="675" y2="350" class="lineStandard" />
+                    <line x1="725" y1="150" x2="975" y2="250" class="lineStandard" />
+                    <line x1="700" y1="175" x2="700" y2="225" class="lineStandard" />
+                    <line x1="725" y1="250" x2="975" y2="250" class="lineStandard" />
+                    <line x1="700" y1="275" x2="700" y2="325" class="lineStandard" />
+                    <line x1="725" y1="350" x2="975" y2="250" class="lineStandard" />
+                    <text id="result" x="350" y="450"></text>
+                </svg>
+            </div>
+            <input type="button" value="Randomize" onclick="randomText()" />
+        </div>
+    </div>
+    <div class="footer">
+        <ul class="footerUL">
+            <li class="footerContent">Email: jaede2812@gmail.com</li>
+            <li class="footerContent">Telefone Number: +49 0175 6432872</li>
+        </ul>
+    </div>
+    <script src="JavaDemo.js"></script>
+</body>
+
+</html>
